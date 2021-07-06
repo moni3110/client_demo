@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Page Object test example]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="https://www.seleniumeasy.com/test/"/>
+  <parameter name="browserType" value="chrome"/>
+  <test thread-count="5" name="sample test(failed)">
+    <classes>
+      <class name="com.pack.common.test.HomePageTest">
+        <methods>
+          <include name="initializeTestBaseSetUp"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageFunction"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pack.common.test.HomePageTest -->
+    </classes>
+  </test> <!-- sample test(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->
